@@ -1,13 +1,12 @@
 ---
 layout: page
-title: The diamondback, Vol. 35, No. 10-A, 1943-12-17
-permalink: /1943-12-17/
+title: Manuscript Layouts
+permalink: /layouts/
 ---
 
-## Articles in the collection
+## Court Manuscripts
 
-Selection of articles from *The diamondback (College Park, Md.), 1943-12-17*
-See full issue on the [University Library website](https://digital.lib.umd.edu/student-newspapers/id/fbe8564d-426c-456b-aff2-b19c0caaaeb8)
+Voluminous manuscript collections of court records from the sixteenth and seventeenth centuries can be found in archives all over Poland. These include city courts, castle courts, land courts, and the national Crown Tribunal. These records share several important characteristics. 
 
 <div>
 {% assign texts_list = site.texts | sort:"url" %}
