@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>x
+            <!--<!-\- can informally produce a prose description -\->
+            <p>Information about the source</p>-->
+
+            <title>Encoding the Gettysburg Address</title>
+            <respStmt>
+               <resp>Produced as a homework assignment for class</resp>
+               <persName corresp="#MJB">Mikol Bailey</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <!--<!-\- can informally produce a prose description -\->
+            <p>Information about the publication</p>-->
+
+            <publisher>Self-published <note>Created as part of a class exercise</note>
+            </publisher>
+            <pubPlace>College Park, MD</pubPlace>
+            <date when="2023-02-21">February 21, 2023</date>
+            <idno/>
+            <availability>
+               <licence>a license</licence>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <!--<!-\- Mikol made this transcription in about a half hour before class, and hopes it is okay. -\->
+            <p>Mikol is auditing this class, so it's alright if their performance is less than stellar, I hope.</p>-->
+
+            <bibl>
+               <title>President Lincoln's Address at Gettysburg</title>
+               <publisher>San Francisco Bulletin <note>Published as Daily Evening Bulletin</note>
+               </publisher>
+               <date when="1863-12-18">December 18, 1863</date>
+               <biblScope unit="page">2</biblScope>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Applause lines are labeled in this transcription. Punctuation and spellings have been
+               maintained within the transcription. Words or phrases that are deemed indecipherable
+               have been noted as "[illegible]," and letters that are deemed indecipherable have
+               been noted as "_."</p>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="newspaper">
+            <head>President Lincoln's Address at Gettysburg</head>
+            <p>The consecration of the Soldiers' Cemetery at Gettysburg, Pa. <!-- ... --> He
+               said:</p>
+            <p>Four scores and seven years ago our fathers established upon this continent a
+               government subscribed in liberty and dedicated to the fundamental principles that all
+               men are created equal by a good God. <incident><desc>[Applause]</desc></incident> Now we are
+               engaged in a great contest—the question whether this nation, any nation, so
+               conceived, so educated, can long remain. We are met on a great battle-field of the
+               war; we are met here to dedicate a portion of that field as the final resting place
+               of those who have given their lives that the nation might live. It is all right,
+               befitting and proper, that we should do this—but in a larger sense, we cannot
+               dedicate—we cannot consecrate—we cannot hallow this ground. The brave and
+               self-sacrificing men, living and dead, who struggled here, have consecrated it far
+               above our power to add or detract. <incident><desc>[Great applause.]</desc></incident> The dead
+               will little heed. Let us long remember what we have, but not forget what they did
+               here. <incident><desc>[Immense applause.]</desc></incident>, nor long remember, what we say here,
+               but it can never forget It is for us the, rather—the living—to be dedicated here to
+               the unfinished work that they have thus far so nobly carried forward.
+                  <incident><desc>["G__d," and great applause.]</desc></incident>It is better for us to be
+               dedivated to the great task remaining before us: for [illegible] to renew our
+               devotion to that cause for which they gave the full measure of their devotion. Here
+               let us resolve that what they have done shall not have been done in vain; that the
+               nation shall, under God, have a new birth; and that Government of the people; founded
+               by the people, for the people, shall not perish.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
