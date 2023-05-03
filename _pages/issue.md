@@ -8,6 +8,8 @@ permalink: /layouts/
 
 Voluminous manuscript collections of court records from the sixteenth and seventeenth centuries can be found in archives all over Poland. These include city courts, castle courts, land courts, and the national Crown Tribunal. These records share several important characteristics. 
 
+<div class="dw__focus-curtain">xyz</div>
+
 <div>
 {% assign texts_list = site.texts | sort:"url" %}
 <ul>
