@@ -3,6 +3,6 @@ layout: default
 permalink: /
 ---
 
-# Example Archive Site
+# Unlocking Polish Latin Manuscripts
 
-This is an example to showcase static sites built with Jekyll, Ed, and with optional [TEI](https://tei-c.org) support.
+This site contains resources and tutorials for the interested reader of Latin manuscripts from Poland in the sixteenth and early seventeenth century. 
